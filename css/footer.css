@@ -1,0 +1,75 @@
+/*--------footer*/
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4{
+    font-size: 16px;
+    color: #ff5912;
+}
+.site-footer{
+    background-color: #fff;
+    padding: 60px 0 44px 0;
+    font-size: 14px;
+    color: #28313b;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.block-370{
+    width: 30.83%;
+    min-height: 100px;
+    margin: 0 1,25%;
+}
+
+.block-170{
+    width: 14.16%;
+    min-height: 100px;
+    margin: 0 1,25%;
+}
+
+
+.copyright{
+    margin-top: 20px;
+}
+
+ .footer-nav a{
+    color: #28313b;
+    text-decoration: none;
+}
+
+.footer-nav a:hover{
+    color: #ff5912;
+}
+/* Чтобы окрасился кружочек */
+.footer-nav .active{
+    color: #ff5912;
+}
+
+ .footer-nav li{
+    margin-bottom: 15px;
+}
+
+.payment-img{
+    width: 25px;
+    height: 17%;
+    display: inline-block;
+}
+
+.pay0{
+    background-image: url('../img/pay0.png');
+  background-position: 0 -1px;
+}
+
+.pay1{
+    background-image: url('../img/pay1.png');
+    background-position: -1px -1px;
+}
+.pay2{
+    background-image: url('../img/pay2.png');
+    background-position: 0 -1px;
+}
+.pay3{
+     background-image: url('../img/pay3.png');
+    background-position: -1px -1px;
+}

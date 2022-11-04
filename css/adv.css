@@ -1,0 +1,89 @@
+.block-adv{
+    width: 50%;
+    min-height: 100px;
+    background: #fff;
+    border: 1px solid #eaedef;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.block-adv .sale{
+    width: 25%;
+    margin: 0 2%; 
+}
+
+.sale-img{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/img_sale.png);
+    margin: 10px auto;
+    text-align: center;
+}
+
+.sale-img span{
+    color: #fff;
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 20px;
+    display: block;
+}
+
+.sale-img p{
+    color: #fff;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.block-adv .slogan{
+    width: 40%;
+    margin: 0 2%;
+    text-align: left;
+    min-height: 100px;
+    position: relative;
+  
+}
+
+.block-adv .slogan::after{
+    content: "";
+    display: block;
+    width: 1%;
+    height: 45px;
+    background: #f5f5f6;
+    position: absolute;
+    right: 10px;
+    top: 27px;
+
+
+}
+
+.block-adv .slogan h3{
+    font-size: 22px;
+    color: #34404b;
+    text-align: left;
+    margin: 0;
+    padding-top: 18px;
+}
+
+.block-adv .slogan p{
+    font-size: 12px;
+    color: #495662;
+    margin: 5px;
+}
+
+.block-adv .adv-price{
+    width: 23%;
+    margin: 0 2%;
+    color: #ff5912;
+    font-size: 24px;
+    line-height: 100px;
+}
+
+.block-adv .adv-price p::before{
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url('../img/icon_plus.png');
+    margin-right: 30px;
+}

@@ -1,0 +1,119 @@
+/* ----------header------------ */
+
+.site-header{
+    min-height: 180px;
+    background: #fff;
+}
+
+.site-header a{
+    text-decoration: none;
+    color: #34404b;
+}
+
+.header-line{
+    min-height: 60px;
+    border-bottom: 1px solid #edeff1;
+}
+
+.contacts-header{
+    width: 1200px;
+    margin: auto;
+    min-height: 100px;
+    padding-top: 20px;
+    position: relative;
+}
+.info{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.information{
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 20px;
+
+}
+.email{
+    margin-top: 3px;
+    margin-right: 20px;
+}
+
+.social-network{
+    width: 48.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    position: absolute;
+    right: 30px;
+}
+
+.f, .g, .t, .i{
+    margin-right: 10px;
+}
+
+.main-logo{
+    margin-top: 30px;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+  
+   
+}
+.header-nav .active a{
+    color: #ff5912;
+}
+
+.marker{
+    list-style: none;
+}
+
+.ico-header{
+    margin-top: 40px;
+}
+/* выравниваем иконки */
+.ico-header img{
+    margin: 0 12px;
+}
+
+/* кружочек над корзиной*/
+
+.cart{
+    position: relative;
+}
+
+/* .cart-count::after{
+    content: "5";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #34404b;
+    position: absolute;
+    top:-27px;
+    left: 16px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+} */
+  .cart-count{
+    content: "5";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #34404b;
+    position: absolute;
+    top:-27px;
+    left: 16px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+
+}
